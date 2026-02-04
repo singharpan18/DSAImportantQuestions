@@ -18,3 +18,10 @@ int main(){
     int n = 5;
     cout << "Missing number = " << findMissingNumber(arr, n) << endl;
 }
+/*
+Time Complexity (TC): O(n)
+- One pass to calculate array sum.
+
+Space Complexity (SC): O(1)
+- Only variables used, no extra array.
+*/
