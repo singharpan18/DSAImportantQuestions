@@ -51,6 +51,9 @@ TC: O(n log n) (due to sorting)
 SC: O(1) (ignoring sort space)
 
 */
-
+/*⚡ Performance Difference
+Case	    Copy Created?	Can Modify Original?	Faster?
+auto p	    ✅ Yes	            ❌ No	        ❌ Slightly slower
+auto &p	    ❌ No	            ✅ Yes	        ✅ Faster*/
 
 

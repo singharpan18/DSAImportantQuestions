@@ -11,7 +11,7 @@ bool isPrime(int n){
     if(n % 2 == 0) return false; // Even numbers >2 not prime
 
     for(int i=3; i <= sqrt(n); i++){
-        if(n % 1 == 0) return false;
+        if(n % i == 0) return false;
     }
 
     return true;
